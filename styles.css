@@ -1,0 +1,36 @@
+:root {
+  color-scheme: dark;
+  font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #2f2f4b, #101017 60%);
+  color: #f2f2ff;
+  display: grid;
+  place-items: center;
+}
+
+.app {
+  width: min(95vw, 1280px);
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.7rem;
+}
+
+.help,
+.hud-help {
+  margin: 0.5rem 0;
+  color: #cfd6ff;
+}
+
+canvas {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #667;
+  background: #111;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
